@@ -12,6 +12,6 @@ class HomeActivity : AppCompatActivity() {
         val name = intent.getStringExtra("username")
         val username = findViewById<TextView>(R.id.username)
 
-        username.text = "Hello $name!!"
+        username.text = "Hellosdfjsdkfhkjshdf $name!!"
     }
 }
